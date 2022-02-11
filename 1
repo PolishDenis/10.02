@@ -1,14 +1,14 @@
 Console.WriteLine("Введите натуральное двухзначное число");
-string input = Console.ReadLine();
-char first = input[0];
-char second = input[1];
-if (input.Length==2) {
+string def = Console.ReadLine();
+char a = def[0];
+char b = def[1];
+if (def.Length==2) {
 if (first>second) 
 {
-    Console.WriteLine($"{first} больше чем {second}");
+    Console.WriteLine($"{a} больше чем {b}");
 }
     else if (second>first){
-    Console.WriteLine($"{second} больше чем {first}");
+    Console.WriteLine($"{b} больше чем {a}");
 }
     else {
     Console.WriteLine("Числа одинаковые");
